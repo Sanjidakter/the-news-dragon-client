@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client'
 import './index.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { RouterProvider } from 'react-router-dom';
-import router from './firebase/routes/Routes.jsx';
+import router from '../src/routes/Routes';
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
